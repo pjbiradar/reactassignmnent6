@@ -1,6 +1,4 @@
 import React, {  useState, useEffect } from 'react'
-
-
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
 import { addstudent,updatestudent } from '../Actions/Studentaction';
@@ -21,11 +19,11 @@ const Addstudent = () => {
         Batch: ""
     })
 
-    useEffect(async() => {
+    useEffect(() => {
         
-        const y=await student.filter((val) => val.Id === id).map((vall) => setInfo(vall))
+         student.filter((val) => val.Id === id).map((vall) => setInfo(vall))
 
-    })
+    },[])
 
     const change = (e) => {
         const name = e.target.name
@@ -62,15 +60,15 @@ const Addstudent = () => {
         <div>
             <div>
                 <label>Name</label>
-                <input  onChange={change} name='Name' value={info.Name} /> <br />
+                <input id='Name' onChange={change} name='Name' value={info.Name} /> <br />
                 <label>Age</label>
-                <input  name='Age' onChange={change} value={info.Age} />
+                <input id='Name' name='Age' onChange={change} value={info.Age} />
             </div>
             <div>
                 <label>Course</label>
-                <input name='Course' onChange={change} value={info.Course} />
+                <input name='Course' id='Name' onChange={change} value={info.Course} />
                 <label>Batch</label>
-                <input  name='Batch' onChange={change} value={info.Batch} />
+                <input  name='Batch' id='Name' onChange={change} value={info.Batch} />
 
 
             </div>
