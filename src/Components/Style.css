@@ -1,0 +1,123 @@
+.main{
+    border: 2px solid greenyellow;
+    background-color: greenyellow;
+    height: 60px;
+}
+.home1{
+    margin-right: 19px;
+    margin-top: 2px;
+}
+/* .student{
+    position: relative;
+    bottom: 58px;
+} */
+.container{
+    width: 74%;
+    left: 207px;
+    position: relative;
+
+}
+
+.contact{
+    position: relative;
+    left: 12px;
+    bottom: 15px;
+}
+.changecolor{
+    text-decoration-color:blue;
+    color: blue;
+}
+.change{
+    margin-right: 20px;
+}
+.button{
+    position: relative;
+    left: 502px;
+    border-radius: 30px;
+    width: 144px;
+    height: 45px;
+    background-color: darkgray;
+    color: brown;
+    top: 54px;
+    font-size: larger;
+}
+.table{
+    border:2px solid gray;
+
+}
+.mainhead{
+    margin-top: 8px;
+    margin-right: 855px;
+}
+.container{
+    height: 500px;
+}
+.one{
+    color: indigo;
+    position: relative;
+    top: 10px;
+}
+.onea{
+
+    border: 2px solid hotpink;
+    position: relative;
+    top: 1px;
+}
+.two{
+    color: indigo;
+    position: relative;
+    top: 17px;
+}
+.twoa{
+    border: 2px solid hotpink;
+    position: relative;
+    top: 1px;
+}
+.three{
+    color: indigo;
+    position: relative;
+    top: 12px;
+
+}
+.threea{
+    border: 2px solid hotpink;
+    position: relative;
+    top: 1px;
+
+}
+.four{
+    color: indigo;
+    position: relative;
+    top: 12px;
+
+}
+.foura{
+    border: 2px solid hotpink;
+    position: relative;
+    top: 1px;
+
+}
+.sub{
+    color: indigo;
+    background-color: lightcoral;
+    border: 2px solid lightsalmon;
+    position: relative;
+    top: 40px;
+    font-size: larger;
+    width: 103px;
+    height: 41px;
+    border-radius: 21px;
+}
+.can{
+    color: indigo;
+    background-color: lightcoral;
+    border: 2px solid lightsalmon;
+    position: relative;
+    top: 40px;
+    font-size: larger;
+    width: 103px;
+    height: 41px;
+    border-radius: 21px;
+    left: 4px;
+
+}
