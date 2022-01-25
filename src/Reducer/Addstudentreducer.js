@@ -30,7 +30,7 @@ const Addstudentreducer = (state= listss, action)=>{
             return [...state,action.payload];
 
             case "UPDATE_STUDENT" :
-                const latest = state.map((vall)=> vall.Id==action.payload.Id ? action.payload : vall)
+                const latest = state.map((vall)=> vall.Id===action.payload.Id ? action.payload : vall)
                 return latest ;
 
             

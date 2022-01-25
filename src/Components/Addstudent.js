@@ -1,5 +1,4 @@
 import React, {  useState, useEffect } from 'react'
-import { Link } from 'react-router-dom';
 
 
 import { useNavigate, useParams } from "react-router-dom";
@@ -24,9 +23,9 @@ const Addstudent = () => {
 
     useEffect(async() => {
         
-        await student.filter((val) => val.Id === id).map((vall) => setInfo(vall))
+        const y=await student.filter((val) => val.Id === id).map((vall) => setInfo(vall))
 
-    }, [])
+    })
 
     const change = (e) => {
         const name = e.target.name
@@ -43,7 +42,7 @@ const Addstudent = () => {
         }
         else{
 
-        if (!id == "") {
+        if (!id === "") {
             const newdata = { ...info, Id: id }
             dispatch(updatestudent(newdata))
 
